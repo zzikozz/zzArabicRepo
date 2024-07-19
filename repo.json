@@ -1,0 +1,8 @@
+{
+    "name": "zzArabic Repo",
+    "description": "zzikozz Arabic Repo",
+    "manifestVersion": 1,
+    "pluginLists": [
+        "https://raw.githubusercontent.com/zzikozz/zzArabicRepo/master/plugins.json"
+    ]
+}

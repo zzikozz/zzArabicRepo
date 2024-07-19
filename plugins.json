@@ -2,12 +2,12 @@
     {
         "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/recloudstream/TestPlugins",
+        "repositoryUrl": "https://github.com/zzikozz/zzArabicRepo/",
         "fileSize": 8306,
         "status": 1,
-        "language": "en",
+        "language": "ar",
         "authors": [
-            "Cloudburst"
+            "zzikozz"
         ],
         "tvTypes": [
             "Movie"
@@ -15,7 +15,7 @@
         "version": -1,
         "internalName": "ExampleProvider",
         "description": "Lorem ipsum",
-        "url": "https://raw.githubusercontent.com/recloudstream/TestPlugins/builds/ExampleProvider.cs3",
+        "url": "https://raw.githubusercontent.com/zzikozz/zzArabicRepo/master/build/ExampleProvider.cs3",
         "name": "ExampleProvider"
     }
 ]

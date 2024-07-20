@@ -20,3 +20,7 @@ class zzArabicAnimePlugin: Plugin() {
         }
     }
 }
+
+// zidwish = OneUpload
+// ds2play = dood
+//

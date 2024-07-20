@@ -1,3 +1,8 @@
+
+انسخ هذا الرابط على Cloudstream
+<br>https://raw.githubusercontent.com/zzikozz/zzArabicRepo/master/repo.json
+<br>
+
 **⚠️ This is currently under development, dont use it yet if you're not comfortable with constantly merging new changes**
 
 # `Cloudstream3 Plugin Repo Template`

@@ -9,7 +9,7 @@ import org.jsoup.Jsoup
 
 class zzArabicAnimeProvider(val plugin: zzArabicAnimePlugin) : MainAPI() { // all providers must be an intstance of MainAPI
     override var mainUrl = "https://animezid.show"
-    override var name = "Gogoflix"
+    override var name = "zzArabicAnime"
 
     override val hasMainPage = true
     override var lang = "ar"
@@ -32,7 +32,10 @@ class zzArabicAnimeProvider(val plugin: zzArabicAnimePlugin) : MainAPI() { // al
         val link = document.select("ul.serversList > li").apmap {
 
            val link = Jsoup.parse(it.attr("data-server")).attr("src")
-           Log.d("zzikozz", "link: $link")
+               //.replace("ds2play")
+
+
+            Log.d("zzikozz", "link: $link")
 
 
             loadExtractor(

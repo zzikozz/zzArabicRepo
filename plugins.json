@@ -13,9 +13,9 @@
             "Movie"
         ],
         "version": -1,
-        "internalName": "ExampleProvider",
+        "internalName": "zzArabicAnimeProvider",
         "description": "Lorem ipsum",
-        "url": "https://raw.githubusercontent.com/zzikozz/zzArabicRepo/master/ExampleProvider/build/ExampleProvider.cs3",
-        "name": "ExampleProvider"
+        "url": "https://raw.githubusercontent.com/zzikozz/zzArabicRepo/master/zzArabicAnimeProvider/build/zzArabicAnimeProvider.cs3",
+        "name": "zzArabicAnimeProvider"
     }
 ]

@@ -62,7 +62,7 @@ class zzArabicAnimeProvider(val plugin: zzArabicAnimePlugin) : MainAPI() { // al
 
         val searchResponses = mutableListOf<SearchResponse>()
         searchResponses.add(
-            newMovieSearchResponse("", "")
+            newMovieSearchResponse("name", "https://animezid.show/watch.php?vid=58dbc4fc7")
         )
 
         return newHomePageResponse(request.name,  searchResponses)

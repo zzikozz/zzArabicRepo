@@ -50,7 +50,16 @@ class zzArabicAnimeProvider(val plugin: zzArabicAnimePlugin) : MainAPI() { // al
 
 
     override suspend fun load(url: String): LoadResponse {
-        return newMovieLoadResponse("name","https://animezid.show/watch.php?vid=58dbc4fc7", TvType.Anime, "https://animezid.show/watch.php?vid=58dbc4fc7")
+        return             return newMovieLoadResponse(
+            "title",
+            "https://animezid.show/watch.php?vid=58dbc4fc7",
+            TvType.Movie,
+            "https://animezid.show/watch.php?vid=58dbc4fc7"
+        ) {
+            this.posterUrl = "https://animezid.show/uploads/thumbs/23b127023-1.jpg"
+            this.plot = "fef"
+        }
+
     }
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
